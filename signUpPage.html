@@ -1,0 +1,38 @@
+<!DOCTYPE HTML>
+<html>
+
+   <head>
+      <meta charset="UTF-8">
+      <title>UI Sign up</title>
+      <link rel="stylesheet" href="style.css">
+   </head>
+   <body>
+      <style>
+         body{
+            background-image: url("bgsignupb.jpg");
+            background-size: 100%;
+            background-repeat:no-repeat;
+         }
+      </style>
+      <div id="signUpBar">
+         <h2>Sign Up For New Possibilities..</h2>
+      </div><br>
+
+      <div id="signupbox">
+         <form>
+            <label name="username">Username</label><br><br>
+            <input id="usernameid" type="text" required/><br>
+            <label name="password">Password</label><br><br>
+            <input id="passwordid" type="password" required/><br>
+            <input class ="btns" id="signupNext" type="submit" value="SignUp" onClick="store()"/>
+         </form>     
+         <br> 
+
+         <!-- login button redirects back to login page -->
+            <input class ="btns" id="signin" type="submit" value="LogIn" onClick="homePage()"/>
+
+      </div>
+   </body>
+   <script src="main.js"></script>
+   
+</html>

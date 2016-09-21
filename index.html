@@ -1,0 +1,44 @@
+<!DOCTYPE HTML>
+<html>
+
+   <head>
+      <meta charset="UTF-8">
+      <title>UI Login</title>
+      <link rel="stylesheet" href="style.css">
+     
+   </head>
+    
+   <body>
+      <div id="loginBar">
+            <h2>Welcome...!</h2>
+      </div><br>
+
+      <center>
+         <div id="loginbox">
+            <form>
+
+               <!-- form elements -->
+               <label name="username">Username</label><br><br>
+               <input id="unameid" type="text" placeholder="Enter Username" required/><br>
+               <label name="password">Password</label><br><br>
+               <input id="pwdid" type="password" placeholder="Enter Password" required/><br>
+               <input class ="btns" id="signin" type="submit" value="Login" onClick="check()"/>
+  
+            </form>
+            <br>
+
+            <!-- signup button redirects to new page -->
+            <input class ="btns" id="signup" type="submit" value="SignUp" onClick="joinSignUpPage()"/>
+
+                          
+      </div>
+
+      <div id="status">
+      </div>
+
+      </center>
+   </body>
+   <script src="main.js"></script>
+
+
+</html>
